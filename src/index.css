@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-purple: #8b3dff;
+  --secondary-purple: #a855f7;
+  --accent-green: #c6f531;
+  --bg-black: #000000;
+  --bg-purple: #1a0f2e;
+  --text-white: #ffffff;
+  --input-bg: #1a1a1a;
+  --font-main: 'Orbitron', sans-serif;
+  --gradient-purple: linear-gradient(135deg, #8b3dff 0%, #a855f7 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--font-main);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Animations */
+@keyframes glow-purple {
+  0% { box-shadow: 0 0 5px rgba(139, 61, 255, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(139, 61, 255, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(139, 61, 255, 0.4); }
+}
+
+@keyframes glow-green {
+  0% { box-shadow: 0 0 5px rgba(198, 245, 49, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(198, 245, 49, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(198, 245, 49, 0.4); }
+}
