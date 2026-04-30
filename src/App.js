@@ -5,7 +5,7 @@ import './App.css';
 
 // Import images
 import heroImg from './assets/hero.png';
-import logoImg from './assets/logo.jpg';
+
 import heroGrayscale from './assets/hero_grayscale.png';
 import modelNeon from './assets/model_neon.png';
 import workout1 from './assets/workout_1.png';
