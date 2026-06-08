@@ -1,0 +1,140 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "community_labels": {
+      "0": "Community 0",
+      "1": "Community 1",
+      "2": "Community 2"
+    },
+    "built_from_commit": "77b5f98c455e763a378d63ab9114354436448611"
+  },
+  "nodes": [
+    {
+      "id": "app_js",
+      "label": "App.js",
+      "file_type": "code",
+      "source_file": "src/App.js",
+      "source_location": "L1",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.js",
+      "source_location": "L16",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_test_js",
+      "label": "App.test.js",
+      "file_type": "code",
+      "source_file": "src/App.test.js",
+      "source_location": "L1",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/index.js",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "reportwebvitals_js",
+      "label": "reportWebVitals.js",
+      "file_type": "code",
+      "source_file": "src/reportWebVitals.js",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "reportwebvitals_reportwebvitals",
+      "label": "reportWebVitals()",
+      "file_type": "code",
+      "source_file": "src/reportWebVitals.js",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "setuptests_js",
+      "label": "setupTests.js",
+      "file_type": "code",
+      "source_file": "src/setupTests.js",
+      "source_location": "L1",
+      "community": 2,
+      "community_name": "Community 2"
+    }
+  ],
+  "links": [
+    {
+      "source": "app_js",
+      "target": "app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.js",
+      "source_location": "L16",
+      "weight": 1,
+      "_src": "app_js",
+      "_tgt": "app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_test_js",
+      "target": "app_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.test.js",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "app_test_js",
+      "_tgt": "app_js",
+      "confidence_score": 1
+    },
+    {
+      "source": "index_js",
+      "target": "app_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "index_js",
+      "_tgt": "app_js",
+      "confidence_score": 1
+    },
+    {
+      "source": "index_js",
+      "target": "reportwebvitals_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "index_js",
+      "_tgt": "reportwebvitals_js",
+      "confidence_score": 1
+    },
+    {
+      "source": "reportwebvitals_js",
+      "target": "reportwebvitals_reportwebvitals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/reportWebVitals.js",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "reportwebvitals_js",
+      "_tgt": "reportwebvitals_reportwebvitals",
+      "confidence_score": 1
+    }
+  ],
+  "hyperedges": []
+}

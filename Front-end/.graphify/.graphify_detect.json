@@ -1,0 +1,54 @@
+{
+  "files": {
+    "code": [
+      "src/App.js",
+      "src/App.test.js",
+      "src/index.js",
+      "src/reportWebVitals.js",
+      "src/setupTests.js"
+    ],
+    "document": [
+      "README.md",
+      "public/index.html",
+      "public/robots.txt"
+    ],
+    "paper": [],
+    "image": [
+      "public/logo192.png",
+      "public/logo512.png",
+      "src/assets/hero.png",
+      "src/assets/hero_grayscale.png",
+      "src/assets/logo.jpg",
+      "src/assets/model_neon.png",
+      "src/assets/radial-bg.png",
+      "src/assets/workout_1.png",
+      "src/assets/workout_2.png",
+      "src/assets/workout_3.png",
+      "src/assets/workout_4.png",
+      "src/logo.svg"
+    ],
+    "video": []
+  },
+  "total_files": 20,
+  "total_words": 237691,
+  "needs_graph": true,
+  "warning": null,
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 0,
+  "scope": {
+    "requested_mode": "auto",
+    "resolved_mode": "committed",
+    "source": "default-auto",
+    "root": ".",
+    "git_root": ".",
+    "head": "77b5f98c455e763a378d63ab9114354436448611",
+    "candidate_count": 27,
+    "included_count": 20,
+    "excluded_untracked_count": 2,
+    "excluded_ignored_count": 58921,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
+  }
+}
