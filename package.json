@@ -1,0 +1,10 @@
+{
+  "name": "gym-attendance-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm start --prefix Front-end",
+    "build": "npm run build --prefix Front-end",
+    "test": "npm test --prefix Front-end",
+    "graphify": "npx graphify update Front-end"
+  }
+}
