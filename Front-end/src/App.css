@@ -411,10 +411,12 @@
 
 /* Signup Section Old */
 .signup-old {
-  background-color: var(--bg-black);
+  background: linear-gradient(180deg, #0f0b1e 0%, #06030b 100%);
   padding: 100px 0;
   text-align: center;
   position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
 }
 
 .signup-h2-old {
