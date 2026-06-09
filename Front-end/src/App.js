@@ -8,10 +8,6 @@ import './App.css';
 import heroImg from './assets/hero.png';
 import heroGrayscale from './assets/hero_grayscale.png';
 import modelNeon from './assets/model_neon.png';
-import workout1 from './assets/workout_1.png';
-import workout2 from './assets/workout_2.png';
-import workout3 from './assets/workout_3.png';
-import workout4 from './assets/workout_4.png';
 
 // Import carousel images
 import carousel1 from './assets/carousel-1.jpg';
@@ -176,6 +172,7 @@ function App() {
     if (token) {
       fetchUserProfile();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
 
   const fetchUserProfile = async () => {
@@ -224,6 +221,7 @@ function App() {
     setIsProfileOpen(false);
   };
 
+  /*
   const markAttendance = async () => {
     try {
       const res = await axios.post(`${API_URL}/user/attendance`, {}, {
@@ -235,6 +233,7 @@ function App() {
       alert(err.response?.data?.message || 'Failed to mark attendance');
     }
   };
+  */
 
   const handleAttendanceByReg = async (e) => {
     e.preventDefault();
