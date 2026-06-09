@@ -48,7 +48,7 @@ const zoneCarouselImages = {
   'personal-training': [personalTraining1, personalTraining2, personalTraining3]
 };
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://website-gym-backend.onrender.com';
 
 function ZoneCard({ zoneKey, title, icon, onClick, images }) {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
